@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BCS Agent | Unified Voice-First Ecosystem</title>
+  <meta name="description" content="BCS Agent bridges mobile phone, laptop automation, and Gemini's reasoning engine for hands-free device control and engineering problem-solving.">
+  <link rel="stylesheet" href="bcs_style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Background Animated Cyber Grid -->
+  <div class="background-grid"></div>
+
+  <!-- Header / Navbar -->
+  <header>
+    <div class="header-container">
+      <a href="#" class="brand-logo">
+        <span class="logo-badge">BCS</span>
+        <span>Agent <span class="gradient-text">Core v2.5</span></span>
+      </a>
+
+      <div class="system-status-pill">
+        <span class="status-dot"></span>
+        <span>ANDROID SYSTEM & LAPTOP NODES ACTIVE</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Layout -->
+  <main class="container">
+
+    <!-- Hero Voice-First Interaction Unit -->
+    <section class="hero-voice-panel">
+      <h1 class="gradient-text" style="font-size: 2.2rem; font-weight: 800;">BCS Mobile & Laptop Control Hub</h1>
+      <p class="hero-subtitle">Unified Android System Layer (Accessibility, Package Manager, Deep Links) + Laptop Automation</p>
+
+      <div class="mic-control-wrapper">
+        <button class="mic-btn" id="micBtn" title="Click to speak or say 'Hey BCS'">
+          🎙️
+        </button>
+      </div>
+
+      <br>
+      <div class="wake-word-badge">
+        Wake Trigger: <span>"Hey BCS"</span> or tap microphone
+      </div>
+
+      <div id="micStatus" style="margin-top: 10px; font-size: 0.9rem; color: var(--text-muted);">
+        Click mic or say "Hey BCS..."
+      </div>
+
+      <!-- Command Prompt Text Input Bar -->
+      <div class="command-bar">
+        <input type="text" id="commandInput" class="command-input" placeholder="e.g. 'BCS, open Instagram and search for tech news' or 'BCS, call Rahul on mobile, then open VS Code on my laptop'">
+        <button id="sendBtn" class="send-btn">Execute ⚡</button>
+      </div>
+    </section>
+
+    <!-- System Permissions Audit Banner -->
+    <section style="margin-bottom: 2rem;">
+      <div style="background: rgba(15, 23, 42, 0.7); border: 1px solid var(--border-glow); border-radius: var(--radius-md); padding: 1.2rem 1.5rem; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px; backdrop-filter: blur(12px);">
+        <div>
+          <strong style="color: var(--accent-cyan);">🔐 Android Native System Permissions:</strong>
+          <span style="font-size: 0.85rem; color: var(--text-muted); margin-left: 8px;">Accessibility Service • CALL_PHONE • READ_CONTACTS • Overlay • Query Packages</span>
+        </div>
+        <span class="node-tag" style="background: rgba(16, 185, 129, 0.15); color: var(--accent-emerald); border: 1px solid var(--accent-emerald);">ALL PERMISSIONS GRANTED</span>
+      </div>
+    </section>
+
+    <!-- Quick Command Action Chips -->
+    <section>
+      <div class="section-title">
+        <span>⚡ Quick Full-Control Triggers</span>
+      </div>
+      <div class="quick-triggers">
+        <button class="trigger-chip" data-cmd="BCS, open Instagram and search for tech news">📸 Open Instagram & Search Tech News</button>
+        <button class="trigger-chip" data-cmd="BCS, open YouTube and play quicksort explanation">▶️ Open YouTube & Play Quicksort</button>
+        <button class="trigger-chip" data-cmd="BCS, call Rahul on mobile, then open VS Code on my laptop">🔀 Call Rahul + Open VS Code on Laptop</button>
+        <button class="trigger-chip" data-cmd="BCS, text Vinod on WhatsApp that the code is pushed">💬 WhatsApp Vinod</button>
+        <button class="trigger-chip" data-cmd="BCS, solve half wave rectifier peak voltage 12V">⚡ Half-Wave Rectifier Solver</button>
+        <button class="trigger-chip" data-cmd="BCS, write python script for data analytics">🐍 Generate Python Code</button>
+        <button class="trigger-chip" data-cmd="BCS, write sql query for top ranking students">🗄️ Generate SQL Query</button>
+      </div>
+    </section>
+
+    <!-- 3-Column BCS Routing Logic Pipeline -->
+    <section>
+      <div class="section-title">
+        <span>🔄 BCS Routing Logic & Android System Control Pipeline</span>
+      </div>
+
+      <div class="pipeline-grid">
+
+        <!-- Node A: Mobile Communication Hub -->
+        <div class="node-card node-mobile" id="nodeMobile">
+          <div class="node-header">
+            <div class="node-icon">📱</div>
+            <span class="node-tag">ANDROID SYSTEM LAYER</span>
+          </div>
+          <div class="node-title">Module A: Mobile Control</div>
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin: 6px 0 12px 0;">Accessibility Service & App Intents</p>
+          <ul class="node-list">
+            <li>PackageManager & Explicit App Intents</li>
+            <li>Accessibility Service (Taps, Scrolls, In-App Typing)</li>
+            <li>Direct App Schemes (`vnd.youtube:`, `spotify:`)</li>
+            <li>Native Cellular SIM Phone Calls & SMS</li>
+          </ul>
+        </div>
+
+        <!-- Node B: Laptop Desktop Automation Engine -->
+        <div class="node-card node-laptop" id="nodeLaptop">
+          <div class="node-header">
+            <div class="node-icon">💻</div>
+            <span class="node-tag">SERVER EXECUTION</span>
+          </div>
+          <div class="node-title">Module B: Laptop Automation</div>
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin: 6px 0 12px 0;">Background Receiver & Desktop Control</p>
+          <ul class="node-list">
+            <li>WhatsApp Desktop Automation</li>
+            <li>App Launcher (VS Code, Chrome, Spotify)</li>
+            <li>Hotkeys (Alt+Tab, Volume, Screenshot)</li>
+            <li>Smart Dictation & Editor Injection</li>
+          </ul>
+        </div>
+
+        <!-- Node C: Problem-Solving Engine -->
+        <div class="node-card node-reasoning" id="nodeReasoning">
+          <div class="node-header">
+            <div class="node-icon">🧠</div>
+            <span class="node-tag">GEMINI REASONING</span>
+          </div>
+          <div class="node-title">Module C: Reasoning Engine</div>
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin: 6px 0 12px 0;">Voice Synthesis & Screen Solver Output</p>
+          <ul class="node-list">
+            <li>Code & Query Generation (Python, C, SQL)</li>
+            <li>Circuit Parameters (Rectifiers, Op-Amps, Logic)</li>
+            <li>Hands-Free Voice Summaries & Explanations</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Execution Results & Code Inspector Console -->
+    <section>
+      <div class="section-title">
+        <span>📊 Execution Console & Output Inspector</span>
+      </div>
+
+      <div class="result-grid">
+        <!-- Routing Output Box -->
+        <div class="console-card">
+          <div class="console-header">
+            <span>Terminal Telemetry</span>
+            <span id="routeStatusTag" class="node-tag">AWAITING_INPUT</span>
+          </div>
+          <div class="response-box" id="responseBox">
+            Welcome to BCS Agent. Speak or type a command to initiate the 3-node routing pipeline.
+          </div>
+        </div>
+
+        <!-- Code & Solution File Viewer -->
+        <div class="console-card">
+          <div class="console-header">
+            <span>Workspace Code & Android Payload Sandbox</span>
+            <span class="node-tag">AUTO_SAVE_ENABLED</span>
+          </div>
+          <div class="code-box" id="codeBox">// Workspace files & Android Accessibility payloads will appear here...</div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>BCS Agent: Unified Voice-First Ecosystem • Mobile Phone (Android Accessibility + PackageManager) + Laptop Node + Gemini 2.5 Brain</p>
+  </footer>
+
+  <script src="bcs_app.js"></script>
+</body>
+</html>

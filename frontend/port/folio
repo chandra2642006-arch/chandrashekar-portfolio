@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chandra Shekar Sai Ram Boppana | ECE Student & Developer Portfolio</title>
+  <meta name="description" content="Official Portfolio of Chandra Shekar Sai Ram Boppana - B.Tech ECE Student at Vignan University with Minor in Entrepreneurship. Specializing in Software Development, Data Analytics, Python, SQL, and IoT.">
+  <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+
+  <div class="grid-background"></div>
+
+  <!-- Navbar Header -->
+  <header>
+    <div class="nav-container">
+      <a href="#" class="logo-brand">
+        <span class="logo-pulse"></span>
+        <span>ChandraShekar<span class="gradient-text">.dev</span></span>
+      </a>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link active">About</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#learning" class="nav-link">Roadmap</a></li>
+          <li><a href="#activities" class="nav-link">Activities</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="theme-toggle-btn" id="themeToggleBtn" title="Toggle Light/Dark Theme">
+          <span id="themeIcon">☀️</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="about" class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge-pill">
+            <span class="hero-badge-dot"></span>
+            <span>B.Tech ECE @ Vignan University | Minor in Entrepreneurship</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <br>
+            <span class="gradient-text">Chandra Shekar Sai Ram Boppana</span>
+          </h1>
+
+          <h2 class="hero-subtitle">
+            Specializing in <span class="typing-text" id="typingText"></span>
+          </h2>
+
+          <p class="hero-bio">
+            Electronics and Communication Engineering student interested in <strong>Software Development</strong> and <strong>Data Analytics</strong>. Foundational knowledge of Python, C, SQL, Excel, HTML, and Data Structures & Algorithms. Passionate about applying technical skills through internships, IoT engineering, and real-world projects.
+          </p>
+
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-value">7.35</span>
+              <span class="stat-label">B.Tech CGPA</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value">2024-28</span>
+              <span class="stat-label">Batch Duration</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value">English / Telugu</span>
+              <span class="stat-label">Languages</span>
+            </div>
+          </div>
+
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">
+              <span>View Projects</span>
+              <span>⚡</span>
+            </a>
+            <a href="assets/resume.pdf" download="Chandra_Shekar_Sai_Ram_Boppana_Resume.pdf" target="_blank" class="btn btn-primary" style="background: linear-gradient(135deg, #10b981 0%, #059669 100%); box-shadow: 0 4px 20px rgba(16, 185, 129, 0.35);">
+              <span>Download PDF Resume</span>
+              <span>📄</span>
+            </a>
+            <a href="https://linkedin.com/in/chandra-shekar-sai-ram-boppana-42166732a" target="_blank" class="btn btn-outline">
+              <span>LinkedIn</span>
+              <span>🔗</span>
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              <span>Contact Me</span>
+              <span>✉️</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="avatar-card-wrapper">
+          <div class="avatar-glow-bg"></div>
+          <div class="avatar-card">
+            <div class="avatar-img-frame">
+              <img src="assets/profile_avatar.jpg" alt="Chandra Shekar Sai Ram Boppana Profile Picture">
+            </div>
+            <div class="avatar-details">
+              <h3>Chandra Shekar Sai Ram Boppana</h3>
+              <p>ECE Student | Minor in Entrepreneurship</p>
+              <div style="font-size: 0.8rem; color: var(--accent-cyan); margin-top: 0.4rem;">Vignan University, Guntur</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Academic Milestones</span>
+          <h2 class="section-title">Education Background</h2>
+          <div class="section-title-bar"></div>
+        </div>
+
+        <div class="timeline">
+          <!-- Item 1: B.Tech -->
+          <div class="timeline-item">
+            <div class="timeline-node"></div>
+            <div class="timeline-content glass-card">
+              <span class="timeline-tag">2024 – 2028 (Present)</span>
+              <h3 class="timeline-title">B.Tech in Electronics & Communication Engineering</h3>
+              <p class="timeline-institution">Vignan University, Guntur, Andhra Pradesh</p>
+              <div style="font-size: 0.88rem; color: var(--accent-cyan); margin-bottom: 0.6rem;">
+                <strong>Minor:</strong> Entrepreneurship
+              </div>
+              <div class="timeline-score">
+                <span>CGPA: 7.35 / 10.0</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2: Intermediate -->
+          <div class="timeline-item">
+            <div class="timeline-node"></div>
+            <div class="timeline-content glass-card">
+              <span class="timeline-tag">Intermediate</span>
+              <h3 class="timeline-title">Intermediate (MPC)</h3>
+              <p class="timeline-institution">Sasi Junior College, Velivennu</p>
+              <div class="timeline-score">
+                <span>Percentage: 92%</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 3: SSC -->
+          <div class="timeline-item">
+            <div class="timeline-node"></div>
+            <div class="timeline-content glass-card">
+              <span class="timeline-tag">SSC (CBSE)</span>
+              <h3 class="timeline-title">Secondary School Certificate</h3>
+              <p class="timeline-institution">CBSE – Vignan World One School</p>
+              <div class="timeline-score">
+                <span>Percentage: 69%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Skills Section (From Resume) -->
+    <section id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Resume Technical Arsenal</span>
+          <h2 class="section-title">Technical Skills</h2>
+          <div class="section-title-bar"></div>
+        </div>
+
+        <div class="activities-grid">
+          <!-- Programming -->
+          <div class="glass-card" style="padding: 1.5rem;">
+            <div style="display: flex; align-items: center; gap: 0.8rem; margin-bottom: 1rem;">
+              <div class="skill-icon-wrap" style="color: #38bdf8;">🐍</div>
+              <div>
+                <h3 style="font-size: 1.15rem;">Programming</h3>
+                <div style="font-size: 0.8rem; color: var(--text-muted);">Core Languages</div>
+              </div>
+            </div>
+            <div class="tech-stack-pills">
+              <span class="tech-pill">Python</span>
+              <span class="tech-pill">C Programming</span>
+            </div>
+          </div>
+
+          <!-- Database -->
+          <div class="glass-card" style="padding: 1.5rem;">
+            <div style="display: flex; align-items: center; gap: 0.8rem; margin-bottom: 1rem;">
+              <div class="skill-icon-wrap" style="color: #a855f7;">🗄️</div>
+              <div>
+                <h3 style="font-size: 1.15rem;">Database</h3>
+                <div style="font-size: 0.8rem; color: var(--text-muted);">Querying & Systems</div>
+              </div>
+            </div>
+            <div class="tech-stack-pills">
+              <span class="tech-pill">SQL (Basics)</span>
+              <span class="tech-pill">MySQL</span>
+            </div>
+          </div>
+
+          <!-- Data Analysis -->
+          <div class="glass-card" style="padding: 1.5rem;">
+            <div style="display: flex; align-items: center; gap: 0.8rem; margin-bottom: 1rem;">
+              <div class="skill-icon-wrap" style="color: #10b981;">📊</div>
+              <div>
+                <h3 style="font-size: 1.15rem;">Data Analysis</h3>
+                <div style="font-size: 0.8rem; color: var(--text-muted);">Data Organization</div>
+              </div>
+            </div>
+            <div class="tech-stack-pills">
+              <span class="tech-pill">Microsoft Excel</span>
+              <span class="tech-pill">CSV Datasets</span>
+            </div>
+          </div>
+
+          <!-- Web Development -->
+          <div class="glass-card" style="padding: 1.5rem;">
+            <div style="display: flex; align-items: center; gap: 0.8rem; margin-bottom: 1rem;">
+              <div class="skill-icon-wrap" style="color: #f472b6;">🌐</div>
+              <div>
+                <h3 style="font-size: 1.15rem;">Web Development</h3>
+                <div style="font-size: 0.8rem; color: var(--text-muted);">Frontend Structure</div>
+              </div>
+            </div>
+            <div class="tech-stack-pills">
+              <span class="tech-pill">HTML (Basics)</span>
+            </div>
+          </div>
+
+          <!-- Computer Science -->
+          <div class="glass-card" style="padding: 1.5rem;">
+            <div style="display: flex; align-items: center; gap: 0.8rem; margin-bottom: 1rem;">
+              <div class="skill-icon-wrap" style="color: #f43f5e;">🧠</div>
+              <div>
+                <h3 style="font-size: 1.15rem;">Computer Science</h3>
+                <div style="font-size: 0.8rem; color: var(--text-muted);">Problem Solving</div>
+              </div>
+            </div>
+            <div class="tech-stack-pills">
+              <span class="tech-pill">Data Structures & Algorithms (Basics)</span>
+            </div>
+          </div>
+
+          <!-- Tools -->
+          <div class="glass-card" style="padding: 1.5rem;">
+            <div style="display: flex; align-items: center; gap: 0.8rem; margin-bottom: 1rem;">
+              <div class="skill-icon-wrap" style="color: #f59e0b;">🛠️</div>
+              <div>
+                <h3 style="font-size: 1.15rem;">Development Tools</h3>
+                <div style="font-size: 0.8rem; color: var(--text-muted);">IDEs & Platforms</div>
+              </div>
+            </div>
+            <div class="tech-stack-pills">
+              <span class="tech-pill">VS Code</span>
+              <span class="tech-pill">MySQL Workbench</span>
+              <span class="tech-pill">Arduino IDE</span>
+              <span class="tech-pill">MATLAB</span>
+            </div>
+          </div>
+
+          <!-- Hardware & IoT -->
+          <div class="glass-card" style="padding: 1.5rem;">
+            <div style="display: flex; align-items: center; gap: 0.8rem; margin-bottom: 1rem;">
+              <div class="skill-icon-wrap" style="color: #06b6d4;">🔌</div>
+              <div>
+                <h3 style="font-size: 1.15rem;">Hardware & IoT</h3>
+                <div style="font-size: 0.8rem; color: var(--text-muted);">Microcontrollers</div>
+              </div>
+            </div>
+            <div class="tech-stack-pills">
+              <span class="tech-pill">ESP32</span>
+              <span class="tech-pill">MQ-2 Gas Sensor</span>
+              <span class="tech-pill">Basic IoT Systems</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Featured Engineering Project</span>
+          <h2 class="section-title">Hardware & IoT Project</h2>
+          <div class="section-title-bar"></div>
+        </div>
+
+        <div class="project-card glass-card">
+          <div class="project-image-box">
+            <img src="assets/lpg_leak_detector.jpg" alt="Smart LPG Leak Detection System Prototype">
+          </div>
+
+          <div class="project-details">
+            <span class="project-tag">🔥 IoT Hardware System</span>
+            <h3 class="project-title">Smart LPG Leak Detection System</h3>
+
+            <div class="tech-stack-pills">
+              <span class="tech-pill">ESP32</span>
+              <span class="tech-pill">MQ-2 Gas Sensor</span>
+              <span class="tech-pill">Arduino IDE</span>
+            </div>
+
+            <ul class="project-features-list">
+              <li><strong>Hardware Development:</strong> Developed an LPG gas leakage detection system using ESP32 microcontroller and MQ-2 sensor.</li>
+              <li><strong>Alert Mechanism:</strong> Implemented threshold-based real-time detection with audio buzzer and visual LED alerts.</li>
+            </ul>
+
+            <button class="btn btn-primary" id="openSimBtn">
+              <span>Launch Live IoT Telemetry Simulator</span>
+              <span>📟</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Relevant Learning Section -->
+    <section id="learning">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Continuous Growth</span>
+          <h2 class="section-title">Relevant Learning & Practice</h2>
+          <div class="section-title-bar"></div>
+        </div>
+
+        <div class="glass-card" style="margin-bottom: 2.5rem; padding: 2rem;">
+          <ul style="list-style: none; display: flex; flex-direction: column; gap: 1.25rem;">
+            <li style="display: flex; gap: 1rem; align-items: flex-start;">
+              <span style="color: var(--accent-cyan); font-size: 1.2rem;">🔹</span>
+              <div>
+                <strong style="color: var(--text-primary);">Python & Algorithms:</strong> Practicing Python programming and basic Data Structures & Algorithms.
+              </div>
+            </li>
+            <li style="display: flex; gap: 1rem; align-items: flex-start;">
+              <span style="color: var(--accent-cyan); font-size: 1.2rem;">🔹</span>
+              <div>
+                <strong style="color: var(--text-primary);">SQL Fundamentals:</strong> Learning SQL database fundamentals including filtering, sorting, aggregation, and database operations.
+              </div>
+            </li>
+            <li style="display: flex; gap: 1rem; align-items: flex-start;">
+              <span style="color: var(--accent-cyan); font-size: 1.2rem;">🔹</span>
+              <div>
+                <strong style="color: var(--text-primary);">Excel Analytics:</strong> Developing practical Microsoft Excel skills for structured data organization and analysis.
+              </div>
+            </li>
+            <li style="display: flex; gap: 1rem; align-items: flex-start;">
+              <span style="color: var(--accent-cyan); font-size: 1.2rem;">🔹</span>
+              <div>
+                <strong style="color: var(--text-primary);">MySQL Workbench:</strong> Hands-on experience working with MySQL Workbench queries and CSV datasets.
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Activities, Minor & Languages -->
+    <section id="activities">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Leadership & Interests</span>
+          <h2 class="section-title">Activities, Minor & Languages</h2>
+          <div class="section-title-bar"></div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+          <!-- Activities & Minor -->
+          <div class="glass-card">
+            <h3 style="font-size: 1.35rem; margin-bottom: 1.5rem; display: flex; align-items: center; gap: 0.7rem;">
+              <span>🏆</span>
+              <span>Activities & Minor</span>
+            </h3>
+            <ul style="list-style: none; display: flex; flex-direction: column; gap: 1.1rem;">
+              <li style="display: flex; gap: 0.8rem; align-items: flex-start;">
+                <span style="color: var(--accent-cyan); font-weight: bold;">•</span>
+                <div>
+                  <strong>Member – E-Cell:</strong> Active member of the Entrepreneurship Cell at Vignan University.
+                </div>
+              </li>
+              <li style="display: flex; gap: 0.8rem; align-items: flex-start;">
+                <span style="color: var(--accent-cyan); font-weight: bold;">•</span>
+                <div>
+                  <strong>Academic Minor:</strong> Entrepreneurship Minor specialization.
+                </div>
+              </li>
+              <li style="display: flex; gap: 0.8rem; align-items: flex-start;">
+                <span style="color: var(--accent-cyan); font-weight: bold;">•</span>
+                <div>
+                  <strong>Tech Interests:</strong> Interested in Software Development, Data Analytics, IoT, and emerging technologies.
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Languages Spoken -->
+          <div class="glass-card">
+            <h3 style="font-size: 1.35rem; margin-bottom: 1.5rem; display: flex; align-items: center; gap: 0.7rem;">
+              <span>🗣️</span>
+              <span>Languages Spoken</span>
+            </h3>
+            <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+              <div style="flex: 1; min-width: 120px; background: var(--bg-secondary); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 1.25rem; text-align: center;">
+                <div style="font-size: 1.6rem; margin-bottom: 0.4rem;">🇬🇧</div>
+                <div style="font-weight: 700; font-size: 1rem;">English</div>
+                <div style="font-size: 0.8rem; color: var(--text-muted);">Professional Proficiency</div>
+              </div>
+              <div style="flex: 1; min-width: 120px; background: var(--bg-secondary); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 1.25rem; text-align: center;">
+                <div style="font-size: 1.6rem; margin-bottom: 0.4rem;">🇮🇳</div>
+                <div style="font-weight: 700; font-size: 1rem;">Telugu</div>
+                <div style="font-size: 0.8rem; color: var(--text-muted);">Native / Full Proficiency</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Address Section -->
+    <section id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Get In Touch</span>
+          <h2 class="section-title">Contact & Location Information</h2>
+          <div class="section-title-bar"></div>
+        </div>
+
+        <div class="footer-grid glass-card">
+          <form class="contact-form" onsubmit="event.preventDefault(); alert('Thank you for reaching out! Message received.');">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" class="form-control" placeholder="Enter your full name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" class="form-control" placeholder="name@example.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" class="form-control" rows="4" placeholder="Write your message here..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="margin-top: 0.5rem; width: 100%; justify-content: center;">
+              <span>Send Message</span>
+              <span>✈️</span>
+            </button>
+          </form>
+
+          <div style="display: flex; flex-direction: column; justify-content: space-between;">
+            <div>
+              <h3 style="font-size: 1.35rem; margin-bottom: 1.2rem;">Official Details</h3>
+              <p style="color: var(--text-secondary); margin-bottom: 1.75rem;">
+                Open for software development opportunities, data analytics roles, internships, and engineering projects!
+              </p>
+
+              <div style="display: flex; flex-direction: column; gap: 1.1rem;">
+                <div style="display: flex; align-items: center; gap: 0.8rem;">
+                  <span style="font-size: 1.25rem;">📱</span>
+                  <a href="tel:+919441863617" style="color: var(--accent-cyan); text-decoration: none; font-weight: 600;">+91 9441863617</a>
+                </div>
+
+                <div style="display: flex; align-items: center; gap: 0.8rem;">
+                  <span style="font-size: 1.25rem;">📧</span>
+                  <a href="mailto:chandra2642006@gmail.com" style="color: var(--accent-cyan); text-decoration: none; font-weight: 600;">chandra2642006@gmail.com</a>
+                </div>
+
+                <div style="display: flex; align-items: center; gap: 0.8rem;">
+                  <span style="font-size: 1.25rem;">🔗</span>
+                  <a href="https://linkedin.com/in/chandra-shekar-sai-ram-boppana-42166732a" target="_blank" style="color: var(--accent-cyan); text-decoration: none; font-weight: 600;">
+                    linkedin.com/in/chandra-shekar-sai-ram-boppana-42166732a
+                  </a>
+                </div>
+
+                <div style="display: flex; align-items: flex-start; gap: 0.8rem;">
+                  <span style="font-size: 1.25rem;">📍</span>
+                  <span style="color: var(--text-secondary); font-size: 0.9rem;">
+                    <strong>Address:</strong> Timmakkapalem, Lingapalem Mandal, Eluru District, Andhra Pradesh, India
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div style="margin-top: 2.25rem; display: flex; flex-direction: column; gap: 0.75rem;">
+              <a href="assets/resume.pdf" download="Chandra_Shekar_Sai_Ram_Boppana_Resume.pdf" target="_blank" class="btn btn-primary" style="width: 100%; justify-content: center; text-decoration: none;">
+                <span>📄 Download Official PDF Resume</span>
+                <span>📥</span>
+              </a>
+              <a href="assets/resume.pdf" target="_blank" class="btn btn-outline" style="width: 100%; justify-content: center; text-decoration: none;">
+                <span>👁️ View PDF Resume Online</span>
+                <span>↗️</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-bottom">
+      <div>© 2026 Chandra Shekar Sai Ram Boppana. All Rights Reserved.</div>
+      <div>Vignan University, Guntur | ECE & Entrepreneurship Minor</div>
+    </div>
+  </footer>
+
+  <!-- IoT LPG Leak Sensor Simulator Modal -->
+  <div class="modal-overlay" id="simModal">
+    <div class="modal-container">
+      <div class="modal-header">
+        <h3>
+          <span>📟</span>
+          <span>ESP32 Smart LPG Leak Detection Simulator</span>
+        </h3>
+        <button class="modal-close-btn" id="closeSimBtn">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        <div class="oled-display">
+          <div class="oled-header-line">
+            <span>OLED TELEMETRY v2.1</span>
+            <span>WIFI: CONNECTED 📶</span>
+          </div>
+
+          <div class="oled-main-readout">
+            <div>
+              <div style="font-size: 0.75rem; color: #94a3b8;">MQ-2 GAS CONCENTRATION</div>
+              <div class="oled-ppm-val" id="oledPpmVal">250 PPM</div>
+            </div>
+            <div class="oled-status-badge status-normal" id="oledStatusBadge">
+              NORMAL (SAFE)
+            </div>
+          </div>
+
+          <div style="font-size: 0.8rem; color: #94a3b8;" id="simLogMsg">
+            LOG: ESP32 telemetry normal. Air quality optimal.
+          </div>
+        </div>
+
+        <div class="sim-controls-panel">
+          <div class="sim-slider-label">
+            <span>Simulate Gas Exposure Level (MQ-2 Sensor)</span>
+            <span id="sliderPpmVal" style="color: var(--accent-cyan); font-family: var(--font-mono);">250 PPM</span>
+          </div>
+          <input type="range" id="gasSlider" class="sim-slider-input" min="0" max="2000" value="250" step="10">
+          <div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--text-muted); margin-top: 0.4rem;">
+            <span>0 PPM (Clean Air)</span>
+            <span>400 PPM (Warning)</span>
+            <span>850+ PPM (DANGER LEAK)</span>
+          </div>
+        </div>
+
+        <div class="hardware-indicators">
+          <div class="hw-box">
+            <div class="hw-icon-led active-green" id="greenLed"></div>
+            <div class="hw-label">GREEN LED (NORMAL)</div>
+          </div>
+          <div class="hw-box">
+            <div class="hw-icon-led" id="redLed"></div>
+            <div class="hw-label">RED LED (ALERT)</div>
+          </div>
+          <div class="hw-box">
+            <div style="font-size: 1.1rem; margin-bottom: 0.3rem;" id="buzzerStatusIcon">🔊</div>
+            <div class="hw-label" id="buzzerStatus" style="font-size: 0.75rem;">Mute (0 Hz)</div>
+          </div>
+        </div>
+
+        <div style="margin-top: 1rem; text-align: center; font-size: 0.85rem; color: var(--text-secondary); background: rgba(255, 255, 255, 0.03); padding: 0.75rem; border-radius: var(--radius-sm);">
+          <strong>Solenoid Relay State:</strong> <span id="relayStatus" style="color: var(--accent-emerald);">Open (Gas Flowing)</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="portfolio.js"></script>
+</body>
+</html>

@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chandra Shekar Sai Ram Boppana | ECE Student & Developer</title>
+  <meta name="description" content="Portfolio of Chandra Shekar Sai Ram Boppana - B.Tech ECE Student specializing in Software Development, Data Analytics, Python, SQL, and IoT.">
+  <link rel="stylesheet" href="portfolio.css">
+  <link rel="stylesheet" href="AnimatedList.css">
+  <link rel="stylesheet" href="GlowCursor.css">
+  <!-- Google Fonts for premium typography -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Animated Glowing Background -->
+  <div class="grid-background"></div>
+
+  <!-- Navbar Header -->
+  <header>
+    <div class="nav-container">
+      <a href="#" class="logo-brand">
+        <span class="logo-pulse"></span>
+        <span>ChandraShekar<span class="gradient-text">.dev</span></span>
+      </a>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link active">About</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#learning" class="nav-link">Roadmap</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="theme-toggle-btn" id="themeToggleBtn" title="Toggle Theme">
+          <span id="themeIcon">☀️</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero / About Me Section with MoltenMetal Background -->
+    <section id="about" class="hero-section reveal" style="position: relative; min-height: 600px; border-radius: 24px; overflow: hidden; padding: 4rem 0; margin-top: 1rem; border: 1px solid rgba(255, 159, 252, 0.15); box-shadow: 0 20px 50px rgba(82, 39, 255, 0.25);">
+      <!-- MoltenMetal 600px Canvas Background -->
+      <div id="moltenMetalContainer" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 0; border-radius: 24px; overflow: hidden; opacity: 0.95;"></div>
+
+      <!-- Subtle Dark Overlay for Maximum Contrast -->
+      <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: radial-gradient(circle at center, rgba(11, 15, 25, 0.45) 0%, rgba(11, 15, 25, 0.85) 100%); z-index: 1; pointer-events: none;"></div>
+
+      <!-- Hero Grid Content Layered Above -->
+      <div class="container hero-grid" style="position: relative; z-index: 2;">
+        <div class="hero-content">
+          <div class="hero-badge-pill">
+            <span class="hero-badge-dot"></span>
+            <span>B.Tech ECE @ Vignan University | Minor in Entrepreneurship</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <br>
+            <span class="gradient-text">Chandra Shekar Sai Ram Boppana</span>
+          </h1>
+
+          <h2 class="hero-subtitle">
+            Specializing in <span class="typing-text" id="typingText"></span>
+          </h2>
+
+          <p class="hero-bio">
+            Electronics and Communication Engineering student interested in <strong>Software Development</strong> and <strong>Data Analytics</strong>. Foundational knowledge of Python, C, SQL, Excel, HTML, and Data Structures & Algorithms. Passionate about applying technical skills through internships, IoT engineering, and real-world projects.
+          </p>
+
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-value gradient-text">7.35</span>
+              <span class="stat-label">B.Tech CGPA</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value gradient-text">2024-28</span>
+              <span class="stat-label">Batch Duration</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value gradient-text">EN / TE</span>
+              <span class="stat-label">Languages</span>
+            </div>
+          </div>
+
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">
+              <span>View Projects</span> <span>⚡</span>
+            </a>
+            <a href="assets/resume.pdf" target="_blank" class="btn btn-primary" style="background: linear-gradient(135deg, var(--accent-emerald) 0%, #059669 100%);">
+              <span>Resume PDF</span> <span>📄</span>
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              <span>Contact Me</span> <span>✉️</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="avatar-card-wrapper">
+          <div class="avatar-glow-bg"></div>
+          <div class="avatar-card glass-card">
+            <div class="avatar-img-frame" style="width: 200px; height: 200px; margin: 0 auto; overflow: hidden; border-radius: 50%; border: 4px solid var(--border-color);">
+              <img src="assets/profile_avatar.jpg" alt="Profile Picture" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div class="avatar-details" style="text-align: center; margin-top: 1.2rem;">
+              <h3 style="color: var(--text-primary); font-size: 1.15rem; line-height: 1.4;">Chandra Shekar Sai Ram Boppana</h3>
+              <p style="color: var(--text-secondary); font-size: 0.9rem; margin-top: 0.3rem;">ECE Student | Entrepreneurship</p>
+              <div style="font-size: 0.8rem; color: var(--accent-cyan); margin-top: 0.5rem; font-weight: 600;">Vignan University, Guntur</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="reveal">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle gradient-text">Academic Milestones</span>
+          <h2 class="section-title">Education Background</h2>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-node"></div>
+            <div class="timeline-content glass-card">
+              <span class="timeline-tag">2024 – 2028 (Present)</span>
+              <h3 class="timeline-title">B.Tech in Electronics & Communication</h3>
+              <p class="timeline-institution">Vignan University, Guntur</p>
+              <div style="color: var(--accent-cyan); font-size: 0.9rem; margin: 0.5rem 0;"><strong>Minor:</strong> Entrepreneurship</div>
+              <div class="timeline-score"><span>CGPA: 7.35 / 10.0</span></div>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-node"></div>
+            <div class="timeline-content glass-card">
+              <span class="timeline-tag">Intermediate</span>
+              <h3 class="timeline-title">Intermediate (MPC)</h3>
+              <p class="timeline-institution">Sasi Junior College, Velivennu</p>
+              <div class="timeline-score"><span>Percentage: 92%</span></div>
+            </div>
+          </div>
+          
+          <div class="timeline-item reveal">
+            <div class="timeline-node"></div>
+            <div class="timeline-content glass-card">
+              <span class="timeline-tag">SSC (CBSE)</span>
+              <h3 class="timeline-title">Secondary School Certificate</h3>
+              <p class="timeline-institution">Vignan World One School</p>
+              <div class="timeline-score"><span>Percentage: 69%</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section id="skills" class="reveal">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle gradient-text">Technical Arsenal</span>
+          <h2 class="section-title">Skills & Tools</h2>
+        </div>
+
+        <div class="activities-grid">
+          <div class="glass-card reveal" style="padding: 1.5rem;">
+            <h3 style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 1rem;"><span style="color: #38bdf8; font-size: 1.5rem;">🐍</span> Programming</h3>
+            <div class="tech-stack-pills">
+              <span class="tech-pill">Python</span>
+              <span class="tech-pill">C Programming</span>
+            </div>
+          </div>
+          
+          <div class="glass-card reveal" style="padding: 1.5rem;">
+            <h3 style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 1rem;"><span style="color: #818CF8; font-size: 1.5rem;">🗄️</span> Database</h3>
+            <div class="tech-stack-pills">
+              <span class="tech-pill">SQL</span>
+              <span class="tech-pill">MySQL</span>
+            </div>
+          </div>
+          
+          <div class="glass-card reveal" style="padding: 1.5rem;">
+            <h3 style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 1rem;"><span style="color: #34D399; font-size: 1.5rem;">📊</span> Data Analysis</h3>
+            <div class="tech-stack-pills">
+              <span class="tech-pill">MS Excel</span>
+              <span class="tech-pill">CSV Datasets</span>
+            </div>
+          </div>
+
+          <div class="glass-card reveal" style="padding: 1.5rem;">
+            <h3 style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 1rem;"><span style="color: #F59E0B; font-size: 1.5rem;">🛠️</span> Tools & Hardware</h3>
+            <div class="tech-stack-pills">
+              <span class="tech-pill">VS Code</span>
+              <span class="tech-pill">Arduino IDE</span>
+              <span class="tech-pill">ESP32</span>
+              <span class="tech-pill">IoT Sensors</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="reveal">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle gradient-text">Featured Engineering</span>
+          <h2 class="section-title">Hardware & IoT Project</h2>
+        </div>
+
+        <div class="project-card glass-card reveal" style="padding: 2.5rem; display: flex; flex-wrap: wrap; gap: 2rem;" id="projectCard3D">
+          <div class="project-details" style="flex: 1; min-width: 300px;">
+            <span class="project-tag" data-translate-z="40" style="color: var(--accent-emerald); font-weight: bold; margin-bottom: 1rem; display: inline-block;">🔥 IoT Hardware System</span>
+            <h3 class="project-title" data-translate-z="60" style="font-size: 1.8rem; margin-bottom: 1rem; color: var(--text-primary);">Smart LPG Leak Detection System</h3>
+            
+            <div class="tech-stack-pills" data-translate-z="45" style="margin-bottom: 1.5rem;">
+              <span class="tech-pill">ESP32</span>
+              <span class="tech-pill">MQ-2 Gas Sensor</span>
+              <span class="tech-pill">Arduino IDE</span>
+            </div>
+
+            <ul class="project-features-list" data-translate-z="30" style="color: var(--text-secondary); margin-bottom: 2rem; line-height: 1.6; padding-left: 1.2rem;">
+              <li style="margin-bottom: 0.8rem;"><strong>Hardware Development:</strong> Developed an LPG gas leakage detection system using an ESP32 microcontroller and MQ-2 sensor.</li>
+              <li><strong>Alert Mechanism:</strong> Implemented threshold-based real-time detection with audio buzzer and visual LED alerts.</li>
+            </ul>
+
+            <button class="btn btn-primary" id="openSimBtn" data-translate-z="70" data-translate-x="10">
+              <span>Launch Live IoT Simulator</span> <span>📟</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AnimatedList Showcase Section -->
+    <section id="learning" class="reveal" style="padding: 3rem 0;">
+      <div class="container">
+        <div class="section-header" style="text-align: center; margin-bottom: 2.5rem;">
+          <span class="section-subtitle gradient-text">Interactive Focus Areas</span>
+          <h2 class="section-title">Technical Competency Roadmap</h2>
+          <p style="color: var(--text-secondary); max-width: 600px; margin: 0.5rem auto 0 auto; font-size: 0.95rem;">
+            Navigate using mouse hover or keyboard <kbd style="background: var(--bg-secondary); border: 1px solid var(--border-color); padding: 2px 6px; border-radius: 4px; font-family: monospace;">↑</kbd> <kbd style="background: var(--bg-secondary); border: 1px solid var(--border-color); padding: 2px 6px; border-radius: 4px; font-family: monospace;">↓</kbd> arrow keys.
+          </p>
+        </div>
+
+        <div id="animatedListContainer"></div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="reveal">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle gradient-text">Get In Touch</span>
+          <h2 class="section-title">Contact Information</h2>
+        </div>
+        
+        <div class="glass-card reveal" style="padding: 3rem; text-align: center; max-width: 600px; margin: 0 auto;">
+          <h3 style="font-size: 1.5rem; color: var(--text-primary); margin-bottom: 1rem;">Open for Opportunities</h3>
+          <p style="color: var(--text-secondary); margin-bottom: 2rem;">Seeking software development, data analytics roles, internships, and engineering projects.</p>
+          
+          <div style="display: flex; flex-direction: column; gap: 1rem; align-items: center;">
+            <a href="mailto:chandra2642006@gmail.com" class="btn btn-primary" style="width: 100%; max-width: 300px; justify-content: center;">
+              <span>Email Me</span> <span>📧</span>
+            </a>
+            <a href="https://linkedin.com/in/chandra-shekar-sai-ram-boppana-42166732a" target="_blank" class="btn btn-outline" style="width: 100%; max-width: 300px; justify-content: center;">
+              <span>LinkedIn</span> <span>🔗</span>
+            </a>
+            <a href="tel:+919441863617" style="color: var(--accent-cyan); text-decoration: none; font-weight: bold; margin-top: 1rem;">+91 9441863617</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer style="text-align: center; padding: 2rem; color: var(--text-muted); border-top: 1px solid var(--border-color); margin-top: 4rem;">
+    <div class="container">
+      <p>© 2026 Chandra Shekar Sai Ram Boppana. All Rights Reserved.</p>
+      <p style="font-size: 0.9rem; margin-top: 0.5rem;">Vignan University, Guntur | ECE</p>
+    </div>
+  </footer>
+
+  <!-- IoT LPG Leak Sensor Simulator Modal -->
+  <div class="modal-overlay" id="simModal">
+    <div class="modal-container glass-card" style="width: 90%; max-width: 500px; padding: 2rem;">
+      <div class="modal-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; border-bottom: 1px solid var(--border-color); padding-bottom: 1rem;">
+        <h3 style="color: var(--text-primary); display: flex; align-items: center; gap: 0.5rem;">📟 ESP32 Simulator</h3>
+        <button id="closeSimBtn" style="background: none; border: none; color: var(--text-primary); font-size: 1.5rem; cursor: pointer;">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        <div class="oled-display" style="background: #000; border: 2px solid #333; border-radius: 8px; padding: 1rem; font-family: 'JetBrains Mono', monospace; margin-bottom: 1.5rem;">
+          <div style="color: #34D399; font-size: 0.8rem; display: flex; justify-content: space-between; border-bottom: 1px solid #34D399; padding-bottom: 0.5rem; margin-bottom: 1rem;">
+            <span>TELEMETRY v2.1</span> <span>WIFI: 📶</span>
+          </div>
+          <div style="text-align: center; color: #34D399;">
+            <div style="font-size: 0.75rem; color: #059669;">MQ-2 CONCENTRATION</div>
+            <div id="oledPpmVal" style="font-size: 2.5rem; font-weight: bold; text-shadow: 0 0 10px rgba(52, 211, 153, 0.5);">250 PPM</div>
+            <div id="oledStatusBadge" style="background: #34D399; color: #000; display: inline-block; padding: 0.2rem 1rem; border-radius: 4px; font-weight: bold; margin-top: 0.5rem;">NORMAL</div>
+          </div>
+        </div>
+
+        <div class="sim-controls-panel">
+          <div style="display: flex; justify-content: space-between; color: var(--text-primary); margin-bottom: 0.5rem; font-weight: bold;">
+            <span>Simulate Gas Level</span>
+            <span id="sliderPpmVal" style="color: var(--accent-cyan);">250 PPM</span>
+          </div>
+          <input type="range" id="gasSlider" style="width: 100%; accent-color: var(--accent-cyan);" min="0" max="2000" value="250" step="10">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/ogl.umd.js"></script>
+  <script src="MoltenMetal.js"></script>
+  <script src="AnimatedList.js"></script>
+  <script src="GlowCursor.js"></script>
+  <script src="ThreeDCard.js"></script>
+  <script src="portfolio.js"></script>
+</body>
+</html>
