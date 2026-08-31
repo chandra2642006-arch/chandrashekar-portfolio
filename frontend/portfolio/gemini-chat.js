@@ -1,4 +1,4 @@
-﻿// ============================================================
+// ============================================================
 // ChandraBot — Built-in Portfolio Assistant
 // Chandra Shekar Sai Ram Boppana — Personal Portfolio Bot
 // No API key required. Fully built-in. Works on GitHub Pages.
@@ -254,7 +254,29 @@
   // ── Build HTML ───────────────────────────────────────────────
   document.body.insertAdjacentHTML('beforeend', `
     <div id="chandrabot-bubble" title="Chat with ChandraBot!">
-      <svg viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg>
+      <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <!-- Antenna -->
+        <line x1="24" y1="3" x2="24" y2="10" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+        <circle cx="24" cy="3" r="2.5" fill="white"/>
+        <!-- Head -->
+        <rect x="7" y="10" width="34" height="28" rx="7" fill="white"/>
+        <!-- Eyes glow bg -->
+        <circle cx="17" cy="22" r="5" fill="#38BDF8" opacity="0.3"/>
+        <circle cx="31" cy="22" r="5" fill="#38BDF8" opacity="0.3"/>
+        <!-- Eyes -->
+        <circle cx="17" cy="22" r="3.5" fill="#38BDF8"/>
+        <circle cx="17" cy="22" r="1.8" fill="#0B0F19"/>
+        <circle cx="31" cy="22" r="3.5" fill="#38BDF8"/>
+        <circle cx="31" cy="22" r="1.8" fill="#0B0F19"/>
+        <!-- Eye shine -->
+        <circle cx="18.2" cy="20.8" r="0.9" fill="white"/>
+        <circle cx="32.2" cy="20.8" r="0.9" fill="white"/>
+        <!-- Mouth -->
+        <rect x="16" y="30" width="16" height="3.5" rx="1.75" fill="#818CF8"/>
+        <!-- Ear bolts -->
+        <rect x="3" y="19" width="4" height="8" rx="2" fill="white"/>
+        <rect x="41" y="19" width="4" height="8" rx="2" fill="white"/>
+      </svg>
     </div>
     <div id="chandrabot-panel">
       <div id="chandrabot-header">
